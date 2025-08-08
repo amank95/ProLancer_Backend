@@ -23,7 +23,7 @@ console.log('Database connected successfully');
 }
 
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://pro-lancer.vercel.app/",
   credentials:true
 }))
 app.use(express.json());

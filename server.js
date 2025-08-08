@@ -44,5 +44,5 @@ app.use('/api/conversations', conversationRoute);
 
 app.listen(process.env.PORT, () => {
   connect()
-  console.log('Server is running on http://localhost:8000');
+  console.log(`https://pro-lancer-backend.vercel.app/`);
 });

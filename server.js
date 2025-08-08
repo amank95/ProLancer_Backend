@@ -42,7 +42,7 @@ app.use('/api/conversations', conversationRoute);
 
 
 
-app.listen(8000, () => {
+app.listen(process.env.PORT, () => {
   connect()
   console.log('Server is running on http://localhost:8000');
 });
